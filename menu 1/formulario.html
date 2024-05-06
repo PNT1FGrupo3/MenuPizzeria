@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="authors" content="Matías Resnik, Sebastian Sagong, Ezequiel Montaño">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Mezzeta - Formulario de Registro</title>
+    <link rel="stylesheet" href="styleform.css">
+</head>
+
+<body>
+
+    <form action="/action_page.php" target="_self" method="post" autocomplete="off">
+
+        <section class ="formulario-registro">
+        
+        <h4>¡Completá los siguientes datos para que podamos enviarte nuestras promociones!</h4>
+
+        <label for="nombre">Nombre:</label><br><br>
+        <input class="opciones" type="text" id="nombre" value=""><br><br>
+
+        <label for="email">Email:</label><br><br>
+        <input class="opciones" type="email" id="email" value=""><br><br>
+
+        <label for="cumpleaños">Cumpleaños: </label><br><br>
+        <input class="opciones" type="date" id="cumpleaños" name="cumpleaños"><br><br>
+
+        <label for="genero">Género:</label><br><br>
+        <input type="radio" id="género1" name="opciones" value="Femenino">
+        <label for="género1"> Femenino</label><br>
+        <input type="radio" id="género2" name="opciones" value="Masculino">
+        <label for="género2"> Masculino</label><br>
+        <input type="radio" id="género3" name="opciones" value="Prefiero no decirlo">
+        <label for="género3"> Prefiero no decirlo</label><br><br><br>
+
+        <label for="celular">Celular: (Ejemplo, 11-1234-5678) </label><br><br>
+        <input class="opciones"  type="tel" id="Celular" value="" 
+        pattern="[0-9]{2}-[0-9]{4}-[0-9]{4}" required><br><br>
+
+        <input class="botones" type="submit" value="Registrate">
+        <input class="botones" type="reset" value="Borrar">
+
+        </section>
+    </form>
+
+
+</body>
+</html>

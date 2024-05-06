@@ -1,0 +1,62 @@
+body{
+    background: rgba(153, 155, 142, 0.637);
+    background-image: url("https://images.pexels.com/photos/20393882/pexels-photo-20393882/free-photo-of-vacaciones-arena-punto-de-referencia-iphone.jpeg");
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif;
+   }
+   h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(20, 17, 17);
+    font-weight: lighter;
+    font-size: 20px;
+   }
+   h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(26, 23, 22);
+    font-weight: lighter;
+    font-size: 20px;
+   }
+   a {
+    color: rgb(178, 162, 193);
+   }
+   a:hover {
+    text-decoration: none;
+    color: purple;
+   }
+   #banner{
+    text-align: center;
+    background-image: url("https://unsplash.it/1300/600?random");
+    background-size: cover;
+    padding: 150px;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+   }
+   #banner h1 {
+    color: white;
+    font-size: 50px;
+   }
+   #banner p {
+    color: white;
+    opacity: 0.8;
+    font-size: 30px;
+    font-weight: lighter;
+   }
+   #footer{
+    padding: 30px;
+    background: rgb(30, 30, 30);
+    color: rgb(249, 245, 245);
+   }
+   #footer a {
+    color: rgb(255, 236, 236);
+    font-size: 25px;
+   }
+   #footer a:hover {
+    color: rgb(255, 255, 255);
+   }   
+   .tarjeta{
+    padding: 50px;
+    font-weight: lighter;
+   }
+   
